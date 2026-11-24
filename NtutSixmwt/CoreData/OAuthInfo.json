@@ -1,7 +1,0 @@
-{
-    "clientID":"22BXG8",
-    "clientSecret":"f53221fe78a2ce21b5ff05ec50060c85",
-    "redirectURL":"myfitbit://appauth",
-    "scope":"activity heartrate location profile sleep weight",
-    "expires_in":"60"
-}
