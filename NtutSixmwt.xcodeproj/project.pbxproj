@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD530F2F27F7349E0011BC5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD530F2E27F7349E0011BC5D /* AppDelegate.swift */; };
+		CD530F3727FFD4230011BC5D /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD530F3627FFD4230011BC5D /* Notification.swift */; };
+		CD530F3C280554DD0011BC5D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD530F3B280554DD0011BC5D /* LocationManager.swift */; };
+		CD65578227CCB0AF0076CB53 /* TabNavigatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65578127CCB0AF0076CB53 /* TabNavigatorViewModel.swift */; };
+		CD65578F27CDA5B00076CB53 /* TestDataDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65578E27CDA5B00076CB53 /* TestDataDetailView.swift */; };
+		CD65579427CDDE670076CB53 /* TestDataDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65579327CDDE670076CB53 /* TestDataDetailViewModel.swift */; };
+		CD65579927E050360076CB53 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD65579827E050360076CB53 /* AlertModel.swift */; };
+		CD6557B527F043290076CB53 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6557B427F043290076CB53 /* ActivityIndicator.swift */; };
+		CD6557BA27F119730076CB53 /* TutorialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6557B927F119730076CB53 /* TutorialViewModel.swift */; };
+		CD6F7DDB2755A26C00ED01C9 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F7DDA2755A26C00ED01C9 /* KeychainService.swift */; };
+		CD6F7DE027561AF400ED01C9 /* PersonalDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F7DDF27561AF400ED01C9 /* PersonalDataViewModel.swift */; };
+		CD6F7DE52767A30D00ED01C9 /* HistoryDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F7DE42767A30D00ED01C9 /* HistoryDataView.swift */; };
+		CD6F7E022767B38100ED01C9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6F7E012767B35C00ED01C9 /* libsqlite3.tbd */; };
+		CD6F7E0C2767B77500ED01C9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F7E0B2767B77500ED01C9 /* DataModel.swift */; };
+		CD6F7E112767C87200ED01C9 /* HistoryDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F7E102767C87200ED01C9 /* HistoryDataViewModel.swift */; };
+		CD6F7E172770540800ED01C9 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F7E162770540800ED01C9 /* DataRequest.swift */; };
+		CD6F7E1F27705AB600ED01C9 /* RefreshTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F7E1E27705AB600ED01C9 /* RefreshTokenRequest.swift */; };
+		CD6F7E2427706DE800ED01C9 /* FitbitCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6F7E2327706DE800ED01C9 /* FitbitCodable.swift */; };
+		CDB2C927271527EF000DDC03 /* NtutSixmwtApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C926271527EF000DDC03 /* NtutSixmwtApp.swift */; };
+		CDB2C929271527EF000DDC03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C928271527EF000DDC03 /* ContentView.swift */; };
+		CDB2C92B271527EF000DDC03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB2C92A271527EF000DDC03 /* Assets.xcassets */; };
+		CDB2C92E271527EF000DDC03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB2C92D271527EF000DDC03 /* Preview Assets.xcassets */; };
+		CDB2C930271527EF000DDC03 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C92F271527EF000DDC03 /* Persistence.swift */; };
+		CDB2C933271527EF000DDC03 /* NtutSixmwt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C931271527EF000DDC03 /* NtutSixmwt.xcdatamodeld */; };
+		CDB2C93E271527F0000DDC03 /* NtutSixmwtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C93D271527F0000DDC03 /* NtutSixmwtTests.swift */; };
+		CDB2C949271527F0000DDC03 /* NtutSixmwtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C948271527F0000DDC03 /* NtutSixmwtUITests.swift */; };
+		CDB2C97B271C1538000DDC03 /* TabNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C97A271C1538000DDC03 /* TabNavigatorView.swift */; };
+		CDB2C989271C18E9000DDC03 /* PersonalDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C988271C18E9000DDC03 /* PersonalDataView.swift */; };
+		CDB2C98E271C1A28000DDC03 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C98D271C1A28000DDC03 /* TutorialView.swift */; };
+		CDB2C993271C1A8A000DDC03 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C992271C1A8A000DDC03 /* TestingView.swift */; };
+		CDB2C9B427217EB4000DDC03 /* TestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C9B327217EB4000DDC03 /* TestingViewModel.swift */; };
+		CDB2C9DB2725B9A3000DDC03 /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C9DA2725B9A3000DDC03 /* AuthorizationViewModel.swift */; };
+		CDB2C9E8272E6FF4000DDC03 /* OAuthInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = CDB2C9E7272E6FF4000DDC03 /* OAuthInfo.json */; };
+		CDB2C9ED272E8427000DDC03 /* FitbitAPIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C9EC272E8427000DDC03 /* FitbitAPIConfig.swift */; };
+		CDB2C9F2272E8B29000DDC03 /* FitbitAuthenticationURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C9F1272E8B29000DDC03 /* FitbitAuthenticationURLBuilder.swift */; };
+		CDB2C9F7272F7277000DDC03 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2C9F6272F7277000DDC03 /* AuthorizationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDB2C93A271527F0000DDC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB2C91B271527EF000DDC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB2C922271527EF000DDC03;
+			remoteInfo = NtutSixmwt;
+		};
+		CDB2C945271527F0000DDC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB2C91B271527EF000DDC03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB2C922271527EF000DDC03;
+			remoteInfo = NtutSixmwt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD530F2E27F7349E0011BC5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD530F3627FFD4230011BC5D /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		CD530F3B280554DD0011BC5D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CD530F4F28127E2E0011BC5D /* NtutSixmwt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NtutSixmwt.entitlements; sourceTree = "<group>"; };
+		CD65578127CCB0AF0076CB53 /* TabNavigatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigatorViewModel.swift; sourceTree = "<group>"; };
+		CD65578E27CDA5B00076CB53 /* TestDataDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataDetailView.swift; sourceTree = "<group>"; };
+		CD65579327CDDE670076CB53 /* TestDataDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataDetailViewModel.swift; sourceTree = "<group>"; };
+		CD65579827E050360076CB53 /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		CD6557B427F043290076CB53 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		CD6557B927F119730076CB53 /* TutorialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewModel.swift; sourceTree = "<group>"; };
+		CD6F7DDA2755A26C00ED01C9 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		CD6F7DDF27561AF400ED01C9 /* PersonalDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataViewModel.swift; sourceTree = "<group>"; };
+		CD6F7DE42767A30D00ED01C9 /* HistoryDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataView.swift; sourceTree = "<group>"; };
+		CD6F7E012767B35C00ED01C9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CD6F7E072767B3DB00ED01C9 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		CD6F7E0B2767B77500ED01C9 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CD6F7E102767C87200ED01C9 /* HistoryDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataViewModel.swift; sourceTree = "<group>"; };
+		CD6F7E162770540800ED01C9 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		CD6F7E1E27705AB600ED01C9 /* RefreshTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenRequest.swift; sourceTree = "<group>"; };
+		CD6F7E2327706DE800ED01C9 /* FitbitCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitCodable.swift; sourceTree = "<group>"; };
+		CDB2C923271527EF000DDC03 /* NtutSixmwt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NtutSixmwt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB2C926271527EF000DDC03 /* NtutSixmwtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NtutSixmwtApp.swift; sourceTree = "<group>"; };
+		CDB2C928271527EF000DDC03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDB2C92A271527EF000DDC03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB2C92D271527EF000DDC03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDB2C92F271527EF000DDC03 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CDB2C932271527EF000DDC03 /* NtutSixmwt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NtutSixmwt.xcdatamodel; sourceTree = "<group>"; };
+		CDB2C934271527EF000DDC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB2C939271527F0000DDC03 /* NtutSixmwtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NtutSixmwtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB2C93D271527F0000DDC03 /* NtutSixmwtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NtutSixmwtTests.swift; sourceTree = "<group>"; };
+		CDB2C93F271527F0000DDC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB2C944271527F0000DDC03 /* NtutSixmwtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NtutSixmwtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB2C948271527F0000DDC03 /* NtutSixmwtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NtutSixmwtUITests.swift; sourceTree = "<group>"; };
+		CDB2C94A271527F0000DDC03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB2C97A271C1538000DDC03 /* TabNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigatorView.swift; sourceTree = "<group>"; };
+		CDB2C988271C18E9000DDC03 /* PersonalDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataView.swift; sourceTree = "<group>"; };
+		CDB2C98D271C1A28000DDC03 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		CDB2C992271C1A8A000DDC03 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		CDB2C9B327217EB4000DDC03 /* TestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewModel.swift; sourceTree = "<group>"; };
+		CDB2C9DA2725B9A3000DDC03 /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
+		CDB2C9E7272E6FF4000DDC03 /* OAuthInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OAuthInfo.json; sourceTree = "<group>"; };
+		CDB2C9EC272E8427000DDC03 /* FitbitAPIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitAPIConfig.swift; sourceTree = "<group>"; };
+		CDB2C9F1272E8B29000DDC03 /* FitbitAuthenticationURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitAuthenticationURLBuilder.swift; sourceTree = "<group>"; };
+		CDB2C9F6272F7277000DDC03 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB2C920271527EF000DDC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6F7E022767B38100ED01C9 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB2C936271527F0000DDC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB2C941271527F0000DDC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD530F2D27F733F20011BC5D /* OtherComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CD6F7DDA2755A26C00ED01C9 /* KeychainService.swift */,
+				CDB2C9F1272E8B29000DDC03 /* FitbitAuthenticationURLBuilder.swift */,
+				CD6F7E162770540800ED01C9 /* DataRequest.swift */,
+				CD6F7E1E27705AB600ED01C9 /* RefreshTokenRequest.swift */,
+				CD65579827E050360076CB53 /* AlertModel.swift */,
+				CDB2C9EC272E8427000DDC03 /* FitbitAPIConfig.swift */,
+				CD530F2E27F7349E0011BC5D /* AppDelegate.swift */,
+				CD530F3627FFD4230011BC5D /* Notification.swift */,
+				CD530F3B280554DD0011BC5D /* LocationManager.swift */,
+			);
+			path = OtherComponent;
+			sourceTree = "<group>";
+		};
+		CD6F7E002767B35B00ED01C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6F7E012767B35C00ED01C9 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6F7E062767B3A400ED01C9 /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				CD6F7E072767B3DB00ED01C9 /* BridgeHeader.h */,
+				CD6F7E0B2767B77500ED01C9 /* DataModel.swift */,
+			);
+			path = sqlite;
+			sourceTree = "<group>";
+		};
+		CD6F7E152770537D00ED01C9 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CDB2C9B327217EB4000DDC03 /* TestingViewModel.swift */,
+				CDB2C9DA2725B9A3000DDC03 /* AuthorizationViewModel.swift */,
+				CD6F7DDF27561AF400ED01C9 /* PersonalDataViewModel.swift */,
+				CD6F7E102767C87200ED01C9 /* HistoryDataViewModel.swift */,
+				CD65578127CCB0AF0076CB53 /* TabNavigatorViewModel.swift */,
+				CD65579327CDDE670076CB53 /* TestDataDetailViewModel.swift */,
+				CD6557B927F119730076CB53 /* TutorialViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		CD9C98112783E07E001E0E19 /* codable */ = {
+			isa = PBXGroup;
+			children = (
+				CD6F7E2327706DE800ED01C9 /* FitbitCodable.swift */,
+			);
+			path = codable;
+			sourceTree = "<group>";
+		};
+		CDB2C91A271527EF000DDC03 = {
+			isa = PBXGroup;
+			children = (
+				CDB2C925271527EF000DDC03 /* NtutSixmwt */,
+				CDB2C93C271527F0000DDC03 /* NtutSixmwtTests */,
+				CDB2C947271527F0000DDC03 /* NtutSixmwtUITests */,
+				CDB2C924271527EF000DDC03 /* Products */,
+				CD6F7E002767B35B00ED01C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB2C924271527EF000DDC03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB2C923271527EF000DDC03 /* NtutSixmwt.app */,
+				CDB2C939271527F0000DDC03 /* NtutSixmwtTests.xctest */,
+				CDB2C944271527F0000DDC03 /* NtutSixmwtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB2C925271527EF000DDC03 /* NtutSixmwt */ = {
+			isa = PBXGroup;
+			children = (
+				CD530F4F28127E2E0011BC5D /* NtutSixmwt.entitlements */,
+				CDB2C96E271BE3DF000DDC03 /* layout */,
+				CD6F7E152770537D00ED01C9 /* viewModel */,
+				CD530F2D27F733F20011BC5D /* OtherComponent */,
+				CD9C98112783E07E001E0E19 /* codable */,
+				CD6F7E062767B3A400ED01C9 /* sqlite */,
+				CDB2CA1027397237000DDC03 /* CoreData */,
+				CDB2C926271527EF000DDC03 /* NtutSixmwtApp.swift */,
+				CDB2C928271527EF000DDC03 /* ContentView.swift */,
+				CDB2C92F271527EF000DDC03 /* Persistence.swift */,
+				CDB2C92C271527EF000DDC03 /* Preview Content */,
+				CDB2C92A271527EF000DDC03 /* Assets.xcassets */,
+				CDB2C931271527EF000DDC03 /* NtutSixmwt.xcdatamodeld */,
+				CDB2C934271527EF000DDC03 /* Info.plist */,
+			);
+			path = NtutSixmwt;
+			sourceTree = "<group>";
+		};
+		CDB2C92C271527EF000DDC03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDB2C92D271527EF000DDC03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDB2C93C271527F0000DDC03 /* NtutSixmwtTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB2C93D271527F0000DDC03 /* NtutSixmwtTests.swift */,
+				CDB2C93F271527F0000DDC03 /* Info.plist */,
+			);
+			path = NtutSixmwtTests;
+			sourceTree = "<group>";
+		};
+		CDB2C947271527F0000DDC03 /* NtutSixmwtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB2C948271527F0000DDC03 /* NtutSixmwtUITests.swift */,
+				CDB2C94A271527F0000DDC03 /* Info.plist */,
+			);
+			path = NtutSixmwtUITests;
+			sourceTree = "<group>";
+		};
+		CDB2C96E271BE3DF000DDC03 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				CDB2C97A271C1538000DDC03 /* TabNavigatorView.swift */,
+				CDB2C988271C18E9000DDC03 /* PersonalDataView.swift */,
+				CDB2C98D271C1A28000DDC03 /* TutorialView.swift */,
+				CDB2C992271C1A8A000DDC03 /* TestingView.swift */,
+				CDB2C9F6272F7277000DDC03 /* AuthorizationView.swift */,
+				CD6F7DE42767A30D00ED01C9 /* HistoryDataView.swift */,
+				CD65578E27CDA5B00076CB53 /* TestDataDetailView.swift */,
+				CD6557B427F043290076CB53 /* ActivityIndicator.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		CDB2CA1027397237000DDC03 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CDB2C9E7272E6FF4000DDC03 /* OAuthInfo.json */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB2C922271527EF000DDC03 /* NtutSixmwt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB2C94D271527F0000DDC03 /* Build configuration list for PBXNativeTarget "NtutSixmwt" */;
+			buildPhases = (
+				CDB2C91F271527EF000DDC03 /* Sources */,
+				CDB2C920271527EF000DDC03 /* Frameworks */,
+				CDB2C921271527EF000DDC03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NtutSixmwt;
+			productName = NtutSixmwt;
+			productReference = CDB2C923271527EF000DDC03 /* NtutSixmwt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB2C938271527F0000DDC03 /* NtutSixmwtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB2C950271527F0000DDC03 /* Build configuration list for PBXNativeTarget "NtutSixmwtTests" */;
+			buildPhases = (
+				CDB2C935271527F0000DDC03 /* Sources */,
+				CDB2C936271527F0000DDC03 /* Frameworks */,
+				CDB2C937271527F0000DDC03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB2C93B271527F0000DDC03 /* PBXTargetDependency */,
+			);
+			name = NtutSixmwtTests;
+			productName = NtutSixmwtTests;
+			productReference = CDB2C939271527F0000DDC03 /* NtutSixmwtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDB2C943271527F0000DDC03 /* NtutSixmwtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB2C953271527F0000DDC03 /* Build configuration list for PBXNativeTarget "NtutSixmwtUITests" */;
+			buildPhases = (
+				CDB2C940271527F0000DDC03 /* Sources */,
+				CDB2C941271527F0000DDC03 /* Frameworks */,
+				CDB2C942271527F0000DDC03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB2C946271527F0000DDC03 /* PBXTargetDependency */,
+			);
+			name = NtutSixmwtUITests;
+			productName = NtutSixmwtUITests;
+			productReference = CDB2C944271527F0000DDC03 /* NtutSixmwtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB2C91B271527EF000DDC03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CDB2C922271527EF000DDC03 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CDB2C938271527F0000DDC03 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CDB2C922271527EF000DDC03;
+					};
+					CDB2C943271527F0000DDC03 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CDB2C922271527EF000DDC03;
+					};
+				};
+			};
+			buildConfigurationList = CDB2C91E271527EF000DDC03 /* Build configuration list for PBXProject "NtutSixmwt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB2C91A271527EF000DDC03;
+			productRefGroup = CDB2C924271527EF000DDC03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB2C922271527EF000DDC03 /* NtutSixmwt */,
+				CDB2C938271527F0000DDC03 /* NtutSixmwtTests */,
+				CDB2C943271527F0000DDC03 /* NtutSixmwtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB2C921271527EF000DDC03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB2C9E8272E6FF4000DDC03 /* OAuthInfo.json in Resources */,
+				CDB2C92E271527EF000DDC03 /* Preview Assets.xcassets in Resources */,
+				CDB2C92B271527EF000DDC03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB2C937271527F0000DDC03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB2C942271527F0000DDC03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB2C91F271527EF000DDC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB2C930271527EF000DDC03 /* Persistence.swift in Sources */,
+				CD65579427CDDE670076CB53 /* TestDataDetailViewModel.swift in Sources */,
+				CD530F3C280554DD0011BC5D /* LocationManager.swift in Sources */,
+				CD65578F27CDA5B00076CB53 /* TestDataDetailView.swift in Sources */,
+				CDB2C9DB2725B9A3000DDC03 /* AuthorizationViewModel.swift in Sources */,
+				CD530F2F27F7349E0011BC5D /* AppDelegate.swift in Sources */,
+				CD6557B527F043290076CB53 /* ActivityIndicator.swift in Sources */,
+				CD65578227CCB0AF0076CB53 /* TabNavigatorViewModel.swift in Sources */,
+				CD6F7DE027561AF400ED01C9 /* PersonalDataViewModel.swift in Sources */,
+				CDB2C9F7272F7277000DDC03 /* AuthorizationView.swift in Sources */,
+				CDB2C929271527EF000DDC03 /* ContentView.swift in Sources */,
+				CD65579927E050360076CB53 /* AlertModel.swift in Sources */,
+				CDB2C933271527EF000DDC03 /* NtutSixmwt.xcdatamodeld in Sources */,
+				CDB2C97B271C1538000DDC03 /* TabNavigatorView.swift in Sources */,
+				CD6F7DE52767A30D00ED01C9 /* HistoryDataView.swift in Sources */,
+				CDB2C927271527EF000DDC03 /* NtutSixmwtApp.swift in Sources */,
+				CD6F7E2427706DE800ED01C9 /* FitbitCodable.swift in Sources */,
+				CD6F7E1F27705AB600ED01C9 /* RefreshTokenRequest.swift in Sources */,
+				CD6557BA27F119730076CB53 /* TutorialViewModel.swift in Sources */,
+				CD6F7E112767C87200ED01C9 /* HistoryDataViewModel.swift in Sources */,
+				CDB2C9ED272E8427000DDC03 /* FitbitAPIConfig.swift in Sources */,
+				CDB2C993271C1A8A000DDC03 /* TestingView.swift in Sources */,
+				CD530F3727FFD4230011BC5D /* Notification.swift in Sources */,
+				CDB2C9F2272E8B29000DDC03 /* FitbitAuthenticationURLBuilder.swift in Sources */,
+				CDB2C98E271C1A28000DDC03 /* TutorialView.swift in Sources */,
+				CD6F7DDB2755A26C00ED01C9 /* KeychainService.swift in Sources */,
+				CD6F7E0C2767B77500ED01C9 /* DataModel.swift in Sources */,
+				CD6F7E172770540800ED01C9 /* DataRequest.swift in Sources */,
+				CDB2C9B427217EB4000DDC03 /* TestingViewModel.swift in Sources */,
+				CDB2C989271C18E9000DDC03 /* PersonalDataView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB2C935271527F0000DDC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB2C93E271527F0000DDC03 /* NtutSixmwtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB2C940271527F0000DDC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB2C949271527F0000DDC03 /* NtutSixmwtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB2C93B271527F0000DDC03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB2C922271527EF000DDC03 /* NtutSixmwt */;
+			targetProxy = CDB2C93A271527F0000DDC03 /* PBXContainerItemProxy */;
+		};
+		CDB2C946271527F0000DDC03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB2C922271527EF000DDC03 /* NtutSixmwt */;
+			targetProxy = CDB2C945271527F0000DDC03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDB2C94B271527F0000DDC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDB2C94C271527F0000DDC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB2C94E271527F0000DDC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NtutSixmwt/NtutSixmwt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NtutSixmwt/Preview Content\"";
+				DEVELOPMENT_TEAM = NT3MGDBJJ2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NtutSixmwt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntut.biolab.NtutSixmwt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = NtutSixmwt/sqlite/BridgeHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CDB2C94F271527F0000DDC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NtutSixmwt/NtutSixmwt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NtutSixmwt/Preview Content\"";
+				DEVELOPMENT_TEAM = NT3MGDBJJ2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NtutSixmwt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntut.biolab.NtutSixmwt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = NtutSixmwt/sqlite/BridgeHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CDB2C951271527F0000DDC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3MGDBJJ2;
+				INFOPLIST_FILE = NtutSixmwtTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntut.biolab.NtutSixmwtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NtutSixmwt.app/NtutSixmwt";
+			};
+			name = Debug;
+		};
+		CDB2C952271527F0000DDC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3MGDBJJ2;
+				INFOPLIST_FILE = NtutSixmwtTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntut.biolab.NtutSixmwtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NtutSixmwt.app/NtutSixmwt";
+			};
+			name = Release;
+		};
+		CDB2C954271527F0000DDC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3MGDBJJ2;
+				INFOPLIST_FILE = NtutSixmwtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntut.biolab.NtutSixmwtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NtutSixmwt;
+			};
+			name = Debug;
+		};
+		CDB2C955271527F0000DDC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NT3MGDBJJ2;
+				INFOPLIST_FILE = NtutSixmwtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntut.biolab.NtutSixmwtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NtutSixmwt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB2C91E271527EF000DDC03 /* Build configuration list for PBXProject "NtutSixmwt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB2C94B271527F0000DDC03 /* Debug */,
+				CDB2C94C271527F0000DDC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB2C94D271527F0000DDC03 /* Build configuration list for PBXNativeTarget "NtutSixmwt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB2C94E271527F0000DDC03 /* Debug */,
+				CDB2C94F271527F0000DDC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB2C950271527F0000DDC03 /* Build configuration list for PBXNativeTarget "NtutSixmwtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB2C951271527F0000DDC03 /* Debug */,
+				CDB2C952271527F0000DDC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB2C953271527F0000DDC03 /* Build configuration list for PBXNativeTarget "NtutSixmwtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB2C954271527F0000DDC03 /* Debug */,
+				CDB2C955271527F0000DDC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDB2C931271527EF000DDC03 /* NtutSixmwt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDB2C932271527EF000DDC03 /* NtutSixmwt.xcdatamodel */,
+			);
+			currentVersion = CDB2C932271527EF000DDC03 /* NtutSixmwt.xcdatamodel */;
+			path = NtutSixmwt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDB2C91B271527EF000DDC03 /* Project object */;
+}

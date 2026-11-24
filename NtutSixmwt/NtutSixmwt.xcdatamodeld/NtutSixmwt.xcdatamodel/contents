@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="FitbitAuthor" representedClassName="FitbitAuthor" syncable="YES" codeGenerationType="class"/>
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class"/>
+    <entity name="Test_data" representedClassName="Test_data" syncable="YES" codeGenerationType="class">
+        <attribute name="heartrate" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="step" optional="YES" attributeType="String"/>
+        <attribute name="test_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="User_data" representedClassName="User_data" syncable="YES" codeGenerationType="class">
+        <attribute name="birth" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="height" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="running_len" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="walking_len" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="FitbitAuthor" positionX="-63" positionY="0" width="128" height="28"/>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="28"/>
+        <element name="User_data" positionX="-63" positionY="-9" width="128" height="28"/>
+        <element name="Test_data" positionX="-54" positionY="0" width="128" height="103"/>
+    </elements>
+</model>
